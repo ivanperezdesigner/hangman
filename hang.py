@@ -19,7 +19,6 @@ while True:
         exit()
 
 while tries < 8:
-    print(word)  # For testing
     result = ''
     for l in hidden:
         if l in corr_word:
